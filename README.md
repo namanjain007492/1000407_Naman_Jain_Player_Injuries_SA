@@ -1,4 +1,4 @@
-# ⚽ FootLens AI — Executive Sports Telemetry & Biomechanics Dashboard
+# FootLens AI — Executive Sports Telemetry & Biomechanics Dashboard
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-name.streamlit.app)
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
@@ -10,11 +10,11 @@
 **Course:** Mathematics for AI-II (Summative Assessment)  
 **CRS:** Artificial Intelligence  
 **Scenario:** Scenario 1 — FootLens Analytics (Player Injuries and Team Performance Dashboard)  
-**Live Web App:** [🚀 Launch FootLens AI(https://1000407namanjainplayerinjuries.streamlit.app/)
+**Live Web App:** [Launch FootLens AI(https://1000407namanjainplayerinjuries.streamlit.app/)
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 1. [Executive Summary & Problem Statement](#-1-executive-summary--problem-statement)
 2. [Research Questions & Domain Objectives](#-2-research-questions--domain-objectives)
 3. [System Architecture & Data Flow](#-3-system-architecture--data-flow)
@@ -31,14 +31,14 @@
 
 ---
 
-## 📌 1. Executive Summary & Problem Statement
+##  1. Executive Summary & Problem Statement
 In elite professional football, player injuries are not merely medical setbacks—they are **tactical, statistical, and financial liabilities**. A single soft-tissue injury to a starting midfielder or striker can derail a club's league campaign, cost millions in unproductive wages, and trigger a cascade of secondary injuries due to squad overexertion.
 
 **FootLens AI** is an end-to-end, interactive sports telemetry and biomechanics decision-support platform built with **Python, Pandas, NumPy, Plotly, and Streamlit**. Designed for technical directors, sports scientists, and club medical departments, the dashboard ingests raw match and biometric telemetry, automates data cleaning and position-stratified imputation, quantifies team performance degradation during player absences, and runs real-time **Monte Carlo simulations** to forecast league points at risk.
 
 ---
 
-## 🎯 2. Research Questions & Domain Objectives
+##  2. Research Questions & Domain Objectives
 The exploratory data analysis (EDA) and interactive visualizations are engineered to answer **six core analytical questions**:
 
 1. **Injury Impact Ranking:** Which specific injury pathologies (e.g., ACL Tear, Hamstring Strain, Ankle Sprain) cause the steepest drop in overall team performance and longest rehabilitation windows?
@@ -50,7 +50,7 @@ The exploratory data analysis (EDA) and interactive visualizations are engineere
 
 ---
 
-## 🏗️ 3. System Architecture & Data Flow
+##  3. System Architecture & Data Flow
 
 1. **Data Ingestion:** Raw match and biometric telemetry (**raw_df**) is loaded into the application.
 2. **Cached ETL Engine:** **initialize_telemetry_engine()** (decorated with **@st.cache_data**) executes deduplication, schema standardization across 28 telemetry codes, temporal casting to **datetime64[ns]**, position-stratified median imputation, and vectorized feature engineering.
@@ -59,7 +59,7 @@ The exploratory data analysis (EDA) and interactive visualizations are engineere
 
 ---
 
-## ⚙️ 4. Data Engineering & ETL Pipeline
+##  4. Data Engineering & ETL Pipeline
 All raw telemetry passes through a deterministic, memory-cached **Pandas & NumPy ETL pipeline** inside **initialize_telemetry_engine()** to guarantee zero data leakage, fast re-renders, and full auditability:
 
 | Pipeline Stage | Technical Implementation | Purpose & Impact |
@@ -72,7 +72,7 @@ All raw telemetry passes through a deterministic, memory-cached **Pandas & NumPy
 
 ---
 
-## 📖 5. Data Dictionary & Feature Engineering Formulas
+##  5. Data Dictionary & Feature Engineering Formulas
 
 ### Core Engineered Metrics
 * **Recovery Days:** Exact duration between injury onset and medical clearance.
@@ -85,15 +85,15 @@ All raw telemetry passes through a deterministic, memory-cached **Pandas & NumPy
 
 ---
 
-## 📊 6. Dashboard Modules & Analytical Deep Dive
+## 6. Dashboard Modules & Analytical Deep Dive
 A **global sidebar filter matrix** dynamically slices the dataset across 7 dimensions (**Club, Position, Severity Tier, Pathology, Trauma Mechanism, Age Bracket, and Cryotherapy Compliance**) and updates all KPIs and charts in real time across **7 specialized tabs**:
 
-### 1. 🎬 Trauma Feed & Data Engineering Pipeline
+### 1.  Trauma Feed & Data Engineering Pipeline
 * **Pitchside Video Integration:** Embedded match trauma video feed for qualitative biomechanics review.
 * **ETL Transparency:** Side-by-side raw vs. cleaned dataframe inspection tables.
 * **Imputation Audit Chart:** Before vs. After **NaN** count bar chart proving zero missing values remain in critical rating columns.
 
-### 2. 🧊 Cryotherapy & Sports Medicine Protocols
+### 2.  Cryotherapy & Sports Medicine Protocols
 * **Clinical Reference Guide:** Evidence-based protocols for Cold Water Immersion (10°C–12°C), Contrast Water Therapy, and medical contraindications.
 * **Rehab Duration Comparison:** Bar chart contrasting average recovery days across cryotherapy compliance tiers.
 * **Biomarker Distribution:** Box plot of **Creatine Kinase (U/L)** levels demonstrating reduced muscle damage markers in compliant athletes.
