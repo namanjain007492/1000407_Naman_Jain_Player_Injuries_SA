@@ -197,6 +197,10 @@ A **global sidebar filter matrix** dynamically slices the dataset across 7 dimen
 * **Course:** Mathematics for AI-II (Artificial Intelligence)
 
 ##  14. Resources
-* **
+* (https://pmc.ncbi.nlm.nih.gov/articles/PMC12450946/)
+  
+* (https://www.sportsmed.org/football-injuries-and-prevention)
+
+* (https://www.hss.edu/health-library/conditions-and-treatments/list/football-injuries)
 
 
