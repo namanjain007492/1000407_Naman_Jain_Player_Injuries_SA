@@ -98,39 +98,39 @@ A **global sidebar filter matrix** dynamically slices the dataset across 7 dimen
 * **Rehab Duration Comparison:** Bar chart contrasting average recovery days across cryotherapy compliance tiers.
 * **Biomarker Distribution:** Box plot of **Creatine Kinase (U/L)** levels demonstrating reduced muscle damage markers in compliant athletes.
 
-### 3. 📊 Club Performance & Recovery Analytics (Core EDA)
+### 3. Club Performance & Recovery Analytics (Core EDA)
 * **Top Injuries by Team Impact (Horizontal Bar Chart):** Ranks pathologies by average **Performance Drop Index**.
 * **Absence Match Outcomes (Stacked Bar Chart):** Compares club Win / Draw / Loss records during key player absences.
 * **Injury Cluster Heatmap (pd.pivot_table):** Cross-tabulates Clubs vs. Calendar Months to expose seasonal injury spikes.
 * **Age vs. Impact Analysis (Scatter Plot + OLS Trendline):** Plots Player Age against Performance Drop Index, bubble-sized by **Recovery Days**, with a fitted NumPy Ordinary Least Squares regression line.
 * **Comeback Leaderboard & Position Pivot Table:** Highlights top-recovering athletes and aggregates recovery metrics by tactical role.
 
-### 4. 🏟️ Spatial Pitch Map & 3D Multivariate Lab
+### 4.  Spatial Pitch Map & 3D Multivariate Lab
 * **105m × 68m Pitch Trauma Density Map:** Interactive football pitch plotting exact **(X, Y)** coordinates of injury events color-coded by severity tier.
 * **3D Multivariate Biometric Lab:** Interactive 3D scatter plot mapping **ACWR (X)**, **Sleep Quality (Y)**, and **Relapse Probability (Z)** to uncover non-linear fatigue thresholds.
 
-### 5. 🏃 Athlete Bio-Passport & Head-to-Head
+### 5.  Athlete Bio-Passport & Head-to-Head
 * **Longitudinal Form Tracker:** Dual-series line chart tracking an individual player's Pre-Injury vs. Post-Recovery match ratings over time.
 * **Clinical History Dossier:** Complete tabular record of an athlete's injuries, recovery timelines, and biomarker readings.
 
-### 6. 🤖 AI Injury Predictor & Monte Carlo Simulator
+### 6.  AI Injury Predictor & Monte Carlo Simulator
 * **Interactive Biometric Sliders:** Adjust ACWR, sleep hours, fatigue index, and cryotherapy adherence to compute live soft-tissue relapse probability.
 * **1,000-Iteration Monte Carlo Engine:** Simulates upcoming fixture blocks using binomial probability sampling to project expected league points lost and worst-case risk tails.
 
-### 7. ♟️ Tactical Squad Rotation & Telemetry Export
+### 7.  Tactical Squad Rotation & Telemetry Export
 * **High-Risk Rotation Alerts:** Automated triage table flagging players exceeding the critical **Relapse Probability ≥ 55%** threshold for immediate squad rotation.
 * **One-Click Data Export:** Download the cleaned, dynamically filtered dataset as a **.csv** file for external reporting.
 
 ---
 
-## 🧮 7. Mathematical & Statistical Modeling
+##  7. Mathematical & Statistical Modeling
 * **Ordinary Least Squares (OLS) Regression:** Implemented via **np.polyfit(x, y, 1)** to model the linear trend between player age and team performance degradation without heavy external ML dependencies.
 * **Monte Carlo Fixture Simulation:** Executes 1,000 stochastic trials using **np.random.binomial** to model the probability distribution of points dropped over congested match schedules given a player's live relapse risk.
 * **Stratified Imputation:** Uses conditional medians grouped by tactical position to minimize variance distortion compared to global mean imputation.
 
 ---
 
-## 🛠️ 8. Tech Stack & Performance Optimization
+##  8. Tech Stack & Performance Optimization
 * **Frontend & App Framework:** Streamlit (custom Cyber-UI CSS injection, wide layout, reactive state management, **@st.cache_data**)
 * **Data Engineering:** Pandas (**groupby**, **agg**, **pivot_table**, vectorized column transforms)
 * **Numerical Computing:** NumPy (OLS polyfit, binomial Monte Carlo sampling, array math)
@@ -144,7 +144,7 @@ A **global sidebar filter matrix** dynamically slices the dataset across 7 dimen
 
 ---
 
-## 📁 9. Repository Structure
+##  9. Repository Structure
 * **app.py** — Main Streamlit application, Cyber-UI CSS & ETL engine
 * **requirements.txt** — Python package dependencies for local & cloud deployment
 * **README.md** — Comprehensive project documentation
@@ -196,6 +196,7 @@ A **global sidebar filter matrix** dynamically slices the dataset across 7 dimen
 * **School / Institution:** Jain Vidyalaya
 * **Course:** Mathematics for AI-II (Artificial Intelligence)
 
-## 
+##  14. Resources
+* **
 
 
