@@ -155,7 +155,7 @@ A **global sidebar filter matrix** dynamically slices the dataset across 7 dimen
 
 ---
 
-## 🚀 10. Installation & Cloud Deployment Guide
+##  10. Installation & Cloud Deployment Guide
 
 ### Option A: Run Locally
 1. **Clone the repository:** Run **git clone https://github.com/YourUsername/YourRepository.git** and navigate into the folder with **cd YourRepository**.
@@ -171,7 +171,7 @@ A **global sidebar filter matrix** dynamically slices the dataset across 7 dimen
 
 ---
 
-## 📸 11. Dashboard Screenshots
+##  11. Dashboard Screenshots
 
 | Executive Command Center & ETL Audit | Core EDA & Performance Drop Visuals |
 | :---: | :---: |
@@ -183,17 +183,19 @@ A **global sidebar filter matrix** dynamically slices the dataset across 7 dimen
 
 ---
 
-## 🗺️ 12. Future Roadmap
+##  12. Future Roadmap
 * **Live Wearable API Integration:** Connect real-time GPS vest telemetry (Catapult / STATSports) via REST webhooks.
 * **Machine Learning Upgrade:** Replace heuristic relapse scoring with a trained XGBoost / Random Forest classifier with SHAP explainability plots.
 * **Automated PDF Medical Reports:** Add one-click generation of executive medical briefings for coaching staff.
 
 ---
 
-## 👤 13. Author & Submission Details
+##  13. Author & Submission Details
 * **Student Name:** Naman Jain
 * **Candidate Registration Number:** 1000407
 * **School / Institution:** Jain Vidyalaya
 * **Course:** Mathematics for AI-II (Artificial Intelligence)
+
+## 
 
 
