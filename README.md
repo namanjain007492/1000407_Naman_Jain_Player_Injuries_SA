@@ -196,6 +196,4 @@ A **global sidebar filter matrix** dynamically slices the dataset across 7 dimen
 * **School / Institution:** Jain Vidyalaya
 * **Course:** Mathematics for AI-II (Artificial Intelligence)
 
-* **School / Institution:** [Your School Name]
-* **Course:** Mathematics for AI-II (Artificial Intelligence)
-* **GitHub Profile:** https://github.com/[YourUsername]
+
